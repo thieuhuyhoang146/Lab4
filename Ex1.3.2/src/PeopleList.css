@@ -1,0 +1,34 @@
+/* PeopleList.css */
+
+.PeopleList {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Set your desired background color */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    padding: 15px; /* Optional: Add padding for spacing inside the component */
+    margin-right: 20px;
+  }
+  
+  .PeopleList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .PeopleList li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Set your desired line color */
+    padding-bottom: 8px; /* Optional: Add padding to separate the line from text */
+  }
+  
+  .PeopleList a {
+    text-decoration: none;
+    color: #333; /* Set your desired text color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .PeopleList a:hover {
+    color: #007bff; /* Set your desired hover color */
+  }
+  

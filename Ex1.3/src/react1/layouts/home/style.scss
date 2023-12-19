@@ -1,0 +1,25 @@
+.home-layout {
+  section {
+    background-color: gray;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    a {
+      color: black;
+      text-decoration: none;
+      .item {
+        font-size: 20px;
+        padding: 20px;
+        font-weight: bold;
+        &:hover {
+          background-color: #ccc;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

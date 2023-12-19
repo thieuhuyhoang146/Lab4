@@ -1,0 +1,32 @@
+/* Person.css */
+
+.Person {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px; 
+    padding: 20px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .Person h1 {
+    color: #333; 
+  }
+  
+  .Person label {
+    display: block;
+    margin-top: 10px; 
+    color: #555; 
+  }
+  
+  .Person-id,
+  .Person-address,
+  .Person-department {
+    margin-bottom: 15px; 
+  }
+  
+  .Person-id,
+  .Person-department {
+    font-weight: bold;
+  }
+  
+  
